@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context="lk.atigampaha.kosalabandara.dramafestival.media">
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btnfacebook"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:onClick="f"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.009"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/btnyoutube"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:onClick="y"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.173"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageButton
+                android:id="@+id/btntwt"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:onClick="t"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.337"
+                app:srcCompat="@drawable/twt" />
+
+            <ImageButton
+                android:id="@+id/btnint"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:onClick="i"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498"
+                app:srcCompat="@drawable/inst" />
+
+            <ImageButton
+                android:id="@+id/btnpin"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:onClick="p"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.662"
+                app:srcCompat="@drawable/pinterest" />
+
+            <ImageButton
+                android:id="@+id/btnlin"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:onClick="in"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.826"
+                app:srcCompat="@drawable/linkedin" />
+
+            <ImageButton
+                android:id="@+id/btnflk"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:onClick="fik"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.99"
+                app:srcCompat="@drawable/flickr" />
+
+            <ImageButton
+                android:id="@+id/btngoogle"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:scaleType="fitCenter"
+                android:onClick="g"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.99"
+                app:srcCompat="@drawable/google" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Drama Festival</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="desc"><b> WHY THIS FETIVAL IS IMORTANT </b>\n \n
+The Department of Drama, Oriental Ballet and Contemporary Dance believes that we should create spaces for our students to perform and confront with diverse audiences which would enhance the competence and the professionalism of their careers. Furthermore theatre is an effective mode of communication and we further believe that the themes, ideas, feelings, emotions, desires, and aspirations that our students bring through their dramatic expressions should place in a wider and larger platform.\n \n \n
+ “Academic Thespian Theatre Festival creates opportunities for our undergraduates to develop a space to share their thoughts with others. On the other hand, these spaces create dynamic environments for ourselves to engage with the university community and debate about current themes and issues related to our lives and the society.
+</string>
+    <string name="title_activity_festival">About Festival</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="festival"><b>ACADEMIC THESPIANS THEATRE FESTIVAL – 2017</b> \n \n \n
+This year The Academic Thespians Theatre Festival Showcases lengthy plays, Ballet performances, Mime show and many short plays.\n
+20th November – 26th November 2017\n\n
+All the performances will be staged at the Panibharatha Theatre at University of the visual and performing arts.\n
+ Show Time: 3.30 P.M / 6.30 P.M\n
+ Tickets Prices:\n
+ Rs.100/=\n
+ Rs.300/= \n
+ Rs.500/= \n
+(Tickets are available at the Theatre)\n\n\n
+
+        <b>OBJECTIVES OF THE ACADEMIC THESPIANS THEATRE FESTIVAL</b>\n\n\n
+• To create opportunities to exercise professionalism \n
+• Encourage students productions and their creativity \n
+• Showcase experimental theatre and dance\n
+• Engage with a diverse community\n
+• Attract industry professionals\n
+• Create a bridge between the university and the community\n
+• Widening the job market\n
+• Opportunity to train as entrepreneurs\n
+• Fund raising for the Final Year Production 2018\n\n\n
+
+</string>
+    <string name="title_activity_about">About Us</string>
+    <string name="about"><b>UNIVERSITY OF THE VISUAL AND PERFORMING ARTS</b> \n\n\n
+
+The origin of the University of the Visual and Performing Arts can be traced back to the year 1893, the era in which the Ceylon Technical College was established. Drawing and Design were among the first courses to be taught there. Approximately five decades later, on the 1st of October 1949, the Department of Arts and Aesthetics shifted its locality from Horton Place to Haywood College.\n\n
+ The subsequent renaming of the institution to the “School of Art” marked yet another hallmark in the saga of the University of the Visual and Performing Arts. The School of Arts conferred the Diploma in Fine Arts upon completion of six years of study.\n\n
+ On 2nd July 1952, the institution now known as the Government College of Fine Arts introduced singing and acting to the Curriculum. While the departments of Music and Dance were established in Albert Crescent in Colombo, the institution saw a further transformation of its name to the College of Fine Arts.\n\n
+The University of the Visual and Performing Arts was established on the 1 st of July 2005, by the former President of the Socialist Republic of Sri Lanka, This University replaces the former Institute of Aesthetic Studies affiliated to the University of Kelaniya. The University of the Visual and Performing Arts has four faculties, namely Faculty of Dance and Drama, Faculty of Music, Faculty of Visual Arts, and Faculty of Graduate Studies.\n\n
+
+        <b>FACULTY OF DANCE AND DRAMA </b> \n\n
+The Faculty of Dance and Drama offers a four- year Bachelor of Performing Arts Special Degree Programs.
+Bachelor of Performing Arts (Special Degree) \n\n
+Sinhala is the medium of instruction. The above mentioned degree is awarded to those who successfully complete the degree program under the seven departments. Each of the degree programs offered by the faculty consists of eight semesters of full time study with two semesters for each year. A semester comprises of 15 calendar weeks. The students are required to complete an independent research study relevant to their field of specialization in the final semester.\n\n The Faculty enrolls about 250 undergraduates annually. All departments conduct special degree courses. In addition to the normal lectures, practical sessions and tutorials classes are arranged. Specialists in the relevant fields and subjects areas conduct special lectures and workshops for the benefit of the students. The graduates are capable of finding employment opportunities in government and private schools, media institutions and other relevant cultural organizations. \n\n
+In addition to the undergraduate programs Faculty of Dance and Drama of the University of the Visual and Performing Arts commenced its Postgraduate study programs in 2008. Both practical as well as theoretical classes are being conducted by a well experienced and qualified panel of lecturers. MA (one year) and MPA (two year) courses in selected subject areas are being conducted under the supervision and guidance of the faculty staff.\n\n
+
+ <b>DEPARTMENT OF DRAMA, ORIENTAL BALLET AND CONTEMPORARY DANCE </b> \n\n
+The Department of Drama, Oriental Ballet and Contemporary Dance commenced its activities as a new department in the year 2005. It was established with the intention of developing Sri Lankan drama, oriental ballet, creative and modern dance. Apart from conducting courses on Drama, Oriental Ballet and Modern Dance, the Department is also responsible for producing individuals who can provide their services in different fields of performing arts by becoming producers, directors, choreographers, script writers, make-up artists, background artists, set designers as well as experts in stage lighting, and sound editing. \n\n
+The Department enrols approximately 25 students annually and they are given the opportunity to engage in various research and creative activities with regard to the fields mentioned above. The department offers Bachelor of Performing Arts (special) Degree in Acting, Bachelor of Performing Arts (special) Degree in Script Writing and Directing and Bachelor of Performing Arts (special) Degree in Oriental Ballet and Modern Dance.\n\n
+
+
+        <b>ACADEMIC THESPIANS STUDENT THEATRE ASSOCIATION </b> \n\n
+Academic Thespians Student Theatre Association is a students’ performance circle which was established in 2007.Since this time Academic Thespians has been the key organization of the Department of Drama, Oriental Ballet and Contemporary Dance which organized the annual theatre festival. This year Academic Thespians Celebrates its 4th Annual Theatre Festival which started in 2013. \n\n
+Academic Thespians annual theatre festival comprises students’ theatre works, ballet performances, mimes and other somatic practices which showcases their academic and professional achievements. Furthermore, this annual event creates the opportunity for academics and the public to integrate with the university. Academic Thespians Theatre Festival further creates a space to discuss, debate and contest on many issues and topics related to social cultural and arts practice in the country.\n\n
+
+</string>
+</resources>
